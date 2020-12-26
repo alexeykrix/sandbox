@@ -74,6 +74,7 @@ class Live {
     this.w = window.innerHeight/window.innerWidth > 1 ? window.innerWidth: window.innerHeight
     this.width = this.w> 500? 480 : (this.w-10)*.9
     this.w> 550? this.width = 500:''
+    this.width = Math.floor(this.width/10)*10
     this.canvas.width = this.canvas.height = this.width
     this.c.fillStyle = '#eeeeee'
     this.c.strokeStyle = '#000'

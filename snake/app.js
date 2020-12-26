@@ -92,6 +92,7 @@ class Snake  {
     this.w = window.innerHeight/window.innerWidth > 1 ? window.innerWidth: window.innerHeight
     this.width = this.w> 500? 480 : (this.w-10)*.9
     this.w> 550? this.width = 500:''
+    this.width = Math.floor(this.width/10)*10
     this.score = 0
     this.gameData = []
     this.directions = []
