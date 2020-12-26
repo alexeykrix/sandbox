@@ -1,2 +1,1 @@
-# sandbox
-all my js games in one place
+# https://alexeykrix.github.io/sandbox
